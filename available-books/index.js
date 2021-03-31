@@ -66,10 +66,11 @@ class BookClass {
 
 const bookClass1 = new BookClass('Turing...finally', 'UK', 10, 'EEER-123');
 
-console.log(bookClass1.availability);
-bookClass1.sell(10)
-console.log(bookClass1.availability);
-bookClass1.restock(2)
+// console.log(bookClass1.availability);
+// bookClass1.sell(10)
+// console.log(bookClass1.availability);
+// bookClass1.restock(2)
 
-console.log(bookClass1.availability);
+// console.log(bookClass1.availability);
 
+module.exports = BookClass;
