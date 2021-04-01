@@ -8,6 +8,7 @@ function second() {
         clockDisplay()
     }, 1000)
 }
+// use setInterval! 
 
 function clockDisplay() {
     const time = new Date();
